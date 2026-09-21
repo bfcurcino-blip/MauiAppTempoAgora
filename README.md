@@ -38,7 +38,7 @@ Quando uma cidade inexistente é informada, o aplicativo apresenta uma mensagem 
 
 Quando não existe acesso à internet, o aplicativo informa que não foi possível realizar a consulta.
 
-![Alerta de falta de conexão](sem-conexao.png) 
+![Alerta de falta de conexão](alerta-sem-conexao.png)
 
 ## Tecnologias utilizadas
 
