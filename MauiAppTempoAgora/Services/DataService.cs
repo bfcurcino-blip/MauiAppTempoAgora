@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json;
@@ -45,7 +46,17 @@ namespace MauiAppTempoAgora.Services
                         sunrise = sunrise.ToString("HH:mm"),
                         sunset = sunset.ToString("HH:mm")
                     }; // fecha obj do tempo.
+
                 } // fecha if se o status do servidor foi de sucesso
+
+                // Verifica se a API retornou o erro 404 (cidade não encontrada)
+                else if (resp.StatusCode == HttpStatusCode.NotFound)
+                {
+                    throw new Exception(
+                        "Cidade não encontrada. Verifique o nome informado."
+                    );
+                }
+
             } // fecha laço using
 
             return t;
