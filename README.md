@@ -48,7 +48,7 @@ Quando não existe acesso à internet, o aplicativo informa que não foi possív
 - Newtonsoft.Json
 - Git e GitHub
 
-## 👩‍💻 Autora
+## Autora
 
 **Bianca Curcino**
 
