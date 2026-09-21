@@ -26,19 +26,19 @@ Foram implementadas as seguintes melhorias:
 
 O aplicativo apresenta os dados da cidade pesquisada, incluindo as novas informações adicionadas durante a atividade.
 
-![Previsão do tempo](imagens/previsao-tempo.png)
+![Previsão do tempo](previsao-tempo.png)
 
 ### Cidade não encontrada
 
 Quando uma cidade inexistente é informada, o aplicativo apresenta uma mensagem específica ao usuário.
 
-![Cidade não encontrada](imagens/cidade-nao-encontrada.png)
+![Cidade não encontrada](cidade-nao-encontrada.png)
 
 ### Falta de conexão com a internet
 
 Quando não existe acesso à internet, o aplicativo informa que não foi possível realizar a consulta.
 
-![Alerta de falta de conexão](imagens/sem-conexao.png)
+![Alerta de falta de conexão](sem-conexao.png)
 
 ## Tecnologias utilizadas
 
